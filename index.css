@@ -1,21 +1,55 @@
 body{
     background-color: #BEDEC9;
+    height: 100vh;
+    overflow: hidden;
 }
-.logo{
-    color: #413522;
-}
-.Navbar{
-    top: 0%;
-    color: #413522 ;
-    
-}
-.Texts{
+
+main {
+    height: 100%;
     display: flex;
-    justify-content: center;  
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
-.imagesone{
-    position: fixed; 
-    bottom: 0%;   
-    right: 0%;
+
+.hero {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #413522
+}
+
+.hero h1 {
+    margin-bottom: 30px;
+    font-size: 64px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 10px 30px;
+    background-color: #Dace80;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.gorilla-left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.gorilla-right {
+    position: fixed;
+    bottom: -25px;
+    right: 0;
 }
