@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Website Title</title>
-  <link rel="stylesheet" href="index.css">
-</head>
-<body>
-  <header>
-    <div class="logo">
-        <h1> Rwanda Adventure</h1>
-    </div>
-    <nav>
-      <!-- Navigation menu here -->
-      <div class="Navbar">
-          <ul>
-            <li> <a href="services.html">Services</a></li>
-            <li> <a href="about.html">About Us </a></li>
-            <li> <a href="contact.html">Contact</a></li>
-          </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Website Title</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <a href="./index.html" class="logo">Rwanda Adventures</a>
       </div>
-    </nav>
-  </header>
-
-  <main>
-    <section>
-      <div class="Texts">
-        <h1>We create memorable experiences</h1> 
-        <p>We provide a personalized concierge service for your unforgettable travel and entertainment experiences in the land of a thousand hills</p>
-        <button>our services</button>
-        <div class="imageone">
-        <img src="Gorillas one and two.jpg" alt="">
+      <div class="navigation-links">
+        <a href="./services.html" class="navigation-link">Services</a>
+        <a href="./about.html" class="navigation-link">About</a>
+        <a href="./contact.html" class="navigation-link">Contact</a>
       </div>
-      <div class="imagetwo">
-        <img src="Gorilla two.jpg" alt="">
+    </header>
+    <main>
+      <div class="hero">
+        <h1>We create memorable experiences</h1>
+        <p>
+          We provide a personalized concierge service for your unforgettable
+          travel and entertainment experiences in the land of a thousand hills
+        </p>
+        <button>View our services</button>
       </div>
-   
-    </section>
-  </main>
-
-</body>
+      <img class="gorilla-left" src="./images/Index-Gorilla-Left.png" alt="" />
+      <img
+        class="gorilla-right"
+        src="./images/Index-Gorilla-Right.png"
+        alt=""
+      />
+    </main>
+  </body>
 </html>
