@@ -1,0 +1,21 @@
+body{
+    background-color: #BEDEC9;
+}
+.logo{
+    color: #413522;
+}
+.Navbar{
+    top: 0%;
+    color: #413522 ;
+    
+}
+.Texts{
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+}
+.imagesone{
+    position: fixed; 
+    bottom: 0%;   
+    right: 0%;
+}
