@@ -1,0 +1,45 @@
+body {
+    background-color: #E6DEBB;
+    color: #413522
+}
+
+#gorilla-img {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    transform: scaleX(-1);
+}
+
+main {
+    margin-left: 500px;
+}
+
+.services {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.service {
+    width: 400px;
+    margin: 0px 30px;
+}
+
+.service img {
+    width: 100%;
+}
+
+.services:first-child() {
+    margin-left: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
