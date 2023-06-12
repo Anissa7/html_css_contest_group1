@@ -1,0 +1,50 @@
+body{
+            font-family: Aileron regular;
+            background-color: #413522;
+
+}
+
+header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1103px;
+            margin: 0px auto;
+            height: 21px;
+            padding-top: 50px;
+
+}
+
+
+
+.navigation-links{
+            display: flex;
+            justify-content: space-between;
+            width: 234px;
+}
+
+.navigation-link{
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #f0cc91;
+}
+
+.logo{
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #f0cc91;
+}
+
+.content{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color:#f0cc91;
+}
+
+.sub{
+            background-color: #f0cc91;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+}
