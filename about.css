@@ -2,6 +2,36 @@ body{
     background-color: #E7FBF6;
 
 }
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1103px;
+  margin: 0px auto;
+  height: 21px;
+  padding-top: 50px;
+
+}
+
+
+
+.navigation-links{
+  display: flex;
+  justify-content: space-between;
+  width: 234px;
+}
+
+.navigation-link{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #413522;
+}
+
+.logo{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #413522;
+}
 .column {
     float: left;
     width: 33.3%;
